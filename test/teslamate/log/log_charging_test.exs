@@ -385,7 +385,7 @@ defmodule TeslaMate.LogChargingTest do
                  latitude: 50.1121,
                  longitude: 11.597,
                  radius: 50,
-                 cost_per_kwh: 0.25
+                 cost_per_unit: 0.25
                })
 
       assert {:ok, cproc} =
@@ -437,7 +437,7 @@ defmodule TeslaMate.LogChargingTest do
                  latitude: 50.1121,
                  longitude: 11.597,
                  radius: 50,
-                 cost_per_kwh: 0.25,
+                 cost_per_unit: 0.25,
                  session_fee: 4.79
                })
 
@@ -464,7 +464,7 @@ defmodule TeslaMate.LogChargingTest do
                  latitude: 50.1121,
                  longitude: 11.597,
                  radius: 50,
-                 cost_per_kwh: 0.0,
+                 cost_per_unit: 0.0,
                  session_fee: 0.0
                })
 
@@ -498,7 +498,7 @@ defmodule TeslaMate.LogChargingTest do
                  latitude: 50.1121,
                  longitude: 11.597,
                  radius: 50,
-                 cost_per_kwh: 0.33
+                 cost_per_unit: 0.33
                })
 
       assert {:ok, cproc} =
